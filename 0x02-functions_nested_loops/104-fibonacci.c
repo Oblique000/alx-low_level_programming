@@ -9,13 +9,13 @@ int main(void)
 	unsigned long int i;
 	unsigned long int bef1;
 	unsigned long int aft2;
-	unsigned long int 1 = 1000000000;
+	unsigned long int l = 1000000000;
 	unsigned long int bef1;
 	unsigned long int bef2;
 	unsigned long int aft1;
 	unsigned long int aft2;
 
-	printf("%lu", bef);
+	printf("%lu", bef2);
 
 	for (i = 1; i < 91; i++)
 	{
