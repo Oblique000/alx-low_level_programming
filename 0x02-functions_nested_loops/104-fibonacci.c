@@ -9,7 +9,6 @@ int main(void)
 	unsigned long int i;
 	unsigned long int bef1;
 	unsigned long int aft2;
-
 	unsigned long int 1 = 1000000000;
 	unsigned long int bef1;
 	unsigned long int bef2;
