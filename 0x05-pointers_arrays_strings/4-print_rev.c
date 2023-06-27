@@ -9,8 +9,7 @@
 void print_rev(char *s)
 {
 	int longi = 0;
-
-	int x;
+	int o;
 
 		while (*s != '\n')
 		{
@@ -19,7 +18,7 @@ void print_rev(char *s)
 		}
 	s--;
 
-	for (x = longi; x > 0; x--)
+	for (o = longi; o > 0; o--)
 	{
 		_putchar(*s);
 		s--;
