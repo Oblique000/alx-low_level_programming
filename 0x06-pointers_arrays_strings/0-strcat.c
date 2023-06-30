@@ -3,7 +3,7 @@
 /**
  * _strcat - Writes a fuction that concatenates two strings
  * @dest: Input value
- * $src: Input value
+ * @src: Input value
  * Return: Always 0
  */
 
