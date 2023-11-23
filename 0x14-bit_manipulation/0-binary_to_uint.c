@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * binary_to_uimt - A function that converts a binary num to an unsigned int.
+ * binary_to_uint - A function that converts a binary num to an unsigned int.
  * @b: A pointer to string containing a binary num.
  *
  * Return: decimal value of binary num, or 0 if error
