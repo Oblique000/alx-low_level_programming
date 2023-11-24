@@ -1,25 +1,9 @@
 #include "main.h"
 
 /**
- * _pow - functhat calculates (base ^ power)
- * @base: base of exponent
- * @power: power of exponent
- * Return: value of (base ^ power)
- */
-unsigned long int _pow(unsigned int base, unsigned int power)
-{
-	unsigned long int num;
-	unsigned int a;
-
-	num = 1;
-	for (a = 1; a <= power; a++)
-		num *= base;
-	return (num);
-}
-
-/**
- * print_binary - prints binary num equivalent of a decimal number
- * @n: The num to print in binary
+ * print_binary - function that prints binary num equivalent to dec num
+ * @n: num to print
+ * Return: Always 0 (success)
  */
 void print_binary(unsigned long int n)
 {
@@ -30,12 +14,12 @@ void print_binary(unsigned long int n)
 	{
 		current = n >> x;
 
-		if (current & 1)
+		if (current & x)
 		{
 			_putchar('1');
 			count++;
 		}
-		else if (count)
+		while (count)
 			_putchar('0');
 	}
 	if (!count)
